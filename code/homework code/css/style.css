@@ -1,0 +1,43 @@
+/* Header */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Section */
+.herolmg {
+    height: 600px;
+    padding: 25px
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer table {
+    background-color: #373738;
+    padding: 50%;
+}
+
+footer th {
+    display: inline-block;
+    vertical-align: top;
+    padding: 50%;
+}
