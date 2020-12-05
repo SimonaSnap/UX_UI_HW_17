@@ -1,4 +1,4 @@
-/* {border:1px solid red}
+* {border:1px solid red}
 /* Page style */
 body {
     background-color: #292759;
@@ -71,14 +71,9 @@ button {
 
 /* Footer */
 footer table {
-    display: flex;
-    justify-content: center;
-    padding: 5%;
-    width: 100%;
-}
+    display: grid;
+    grid-template-columns: 3;
 
-.long {
-    width: 100%;
 }
 
 footer img{
@@ -86,8 +81,15 @@ footer img{
     width: 50px;
 }
 
-footer th {
+footer tr {
+    width: 300px;
+}
+
+footer td {
     display: inline-block;
     vertical-align: top;
     padding: 5%;
+    font-family: Garamond;
+    color: #F2D0C4;
+    width: 75px;
 }
