@@ -70,26 +70,32 @@ button {
 }
 
 /* Footer */
-footer table {
+.footerGrid {
     display: grid;
-    grid-template-columns: 3;
-
+    grid-template-columns: 51px 51px 51px;
+    grid-template-rows: 51px;
+    grid-template-areas: 
+    "LinkedIn Instagram Mail";
 }
 
-footer img{
-    height: 50px;
-    width: 50px;
+#LinkedIn {
+    grid-area: LinkedIn;
 }
 
-footer tr {
-    width: 300px;
+#Instagram {
+    grid-area: Instagram;
 }
 
-footer td {
-    display: inline-block;
-    vertical-align: top;
-    padding: 5%;
-    font-family: Garamond;
+#Mail {
+    grid-area: Mail;
+}
+
+.subheading {
+    font-size: 28px;
     color: #F2D0C4;
-    width: 75px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+.footerGridArea {
 }
