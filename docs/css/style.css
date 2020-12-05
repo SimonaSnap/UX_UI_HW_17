@@ -81,17 +81,17 @@ button {
 
 #LinkedIn {
     grid-area: LinkedIn;
-    background-image: url("../images/linkedin\ 1.png");
+    background-image: url(/docs/images/linkedin\ 1.png);
 }
 
 #Instagram {
     grid-area: Instagram;
-    background-image: url("../images/instagram\ 1.png");
+    background-image: url(/docs/images/instagram\ 1.png);
 }
 
 #Mail {
     grid-area: Mail;
-    background-image: url("../images/mail\ 1.png");
+    background-image: url(/docs/images/mail\ 1.png);
 }
 
 .subheading {
