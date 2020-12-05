@@ -1,4 +1,4 @@
-/* {border:1px solid red}
+/ {border:1px solid red}
 /* Page style */
 body {
     background-color: #292759;
@@ -72,6 +72,7 @@ button {
 /* Footer */
 .footerGrid {
     display: grid;
+    justify-content: center;
     grid-template-columns: 51px 51px 51px;
     grid-template-rows: 51px;
     grid-template-areas: 
@@ -80,14 +81,17 @@ button {
 
 #LinkedIn {
     grid-area: LinkedIn;
+    background-image: url("../images/linkedin\ 1.png");
 }
 
 #Instagram {
     grid-area: Instagram;
+    background-image: url("../images/instagram\ 1.png");
 }
 
 #Mail {
     grid-area: Mail;
+    background-image: url("../images/mail\ 1.png");
 }
 
 .subheading {
@@ -95,7 +99,15 @@ button {
     color: #F2D0C4;
     font-family: Garamond;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .footerGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
 }
